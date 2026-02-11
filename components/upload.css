@@ -1,0 +1,246 @@
+.upload-container {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.upload-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 1.5rem 0;
+}
+
+.upload-drop-zone {
+  border: 2px dashed #d1d5db;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  background-color: #f9fafb;
+}
+
+.upload-drop-zone.drag-active {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.upload-drop-zone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.upload-drop-zone-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #001f3f;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.upload-drop-zone-text {
+  color: #4b5563;
+  font-size: 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.upload-choose-file-btn {
+  background-color: transparent;
+  border: none;
+  color: #4b5563;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.upload-choose-file-btn:hover {
+  color: #111827;
+}
+
+.upload-hidden-input {
+  display: none;
+}
+
+.upload-formats-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-top: 1rem;
+}
+
+.upload-file-list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.upload-file-item {
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upload-file-item-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.upload-file-icon {
+  font-size: 1.5rem;
+}
+
+.upload-file-details {
+  flex: 1;
+}
+
+.upload-file-name-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.upload-file-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+.upload-file-size {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.upload-file-progress-bar {
+  margin-top: 0.5rem;
+  width: 100%;
+  background-color: #d1d5db;
+  border-radius: 9999px;
+  height: 0.25rem;
+  overflow: hidden;
+}
+
+.upload-file-progress-fill {
+  background-color: #3b82f6;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.upload-file-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: 1rem;
+}
+
+.upload-file-progress-text {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.upload-file-remove-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #d1d5db;
+  transition: color 0.2s ease;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-file-remove-btn:hover {
+  color: #9ca3af;
+}
+
+.upload-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.upload-help-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #4b5563;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.upload-help-link:hover {
+  color: #111827;
+}
+
+.upload-help-icon {
+  font-size: 1.25rem;
+}
+
+.upload-button-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.upload-cancel-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #ffffff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.upload-cancel-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.upload-next-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #d1d5db;
+  color: #374151;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.upload-next-btn:hover {
+  background-color: #bfdbfe;
+}

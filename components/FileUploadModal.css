@@ -1,0 +1,140 @@
+.upload-drop-zone {
+  border: 2px dashed #d1d5db;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  background-color: #f9fafb;
+  margin-top: 1rem;
+}
+
+.upload-drop-zone.drag-active {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.upload-drop-zone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.upload-drop-zone-icon {
+  color: #9ca3af;
+}
+
+.upload-drop-zone-text {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.upload-formats-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.upload-file-list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.upload-file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background-color: #f9fafb;
+  border-radius: 0.375rem;
+  border: 1px solid #e5e7eb;
+}
+
+.upload-file-item-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.upload-file-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.upload-file-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.upload-file-name-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.upload-file-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.upload-file-size {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin: 0.25rem 0;
+}
+
+.upload-file-progress-bar {
+  height: 4px;
+  background-color: #e5e7eb;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.upload-file-progress-fill {
+  height: 100%;
+  background-color: #22c55e;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.upload-file-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.upload-file-progress-text {
+  font-size: 0.75rem;
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.upload-file-remove-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.upload-file-remove-btn:hover {
+  color: #ef4444;
+}
